@@ -22,7 +22,7 @@
             <?php
 
                 // Lecture des donnéees dans la table [taches]
-                $result = $mysql->query("SELECT * FROM taches LIMIT 10");
+                $result = $mysqli->query("SELECT * FROM taches LIMIT 10");
 
             ?>
 

@@ -3,7 +3,7 @@
 //Désactiver les messages d'erreur de la page
 //error_reporting();
 
-$mysql = new mysqli($dbHost, $dbUser, $dbPwd, $dbName);
+$mysqli = @new mysqli($dbHost, $dbUser, $dbPwd, $dbName);
 //@ devant new permet de sécuriser vos infos d'accès au serveur
 
 /*
